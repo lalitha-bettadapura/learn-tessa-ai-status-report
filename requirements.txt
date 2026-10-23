@@ -1,0 +1,8 @@
+#pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org streamlit google-genai pandas openpyxl python-dotenv
+#I am behind a corporate firewall and need the pip install command with trusted hosts for: [package 1], [package 2].
+#Example: Make sure to initialize the genai.Client with http_options=types.HttpOptions(client_args={\"verify\": False}) for network handling.
+streamlit
+google-genai
+pandas
+openpyxl
+python-dotenv
